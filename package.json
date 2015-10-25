@@ -1,0 +1,18 @@
+{
+  "name": "rebar-plus",
+  "main": "./lib/rebar-plus",
+  "version": "0.0.0",
+  "description": "A short description of your package",
+  "keywords": [
+  ],
+  "activationCommands": {
+    "atom-workspace": "rebar-plus:toggle"
+  },
+  "repository": "https://github.com/prokopiy/atom-rebar-plus.git",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}

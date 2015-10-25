@@ -1,0 +1,22 @@
+# See https://atom.io/docs/latest/hacking-atom-package-word-count#menus for more details
+'context-menu':
+  'atom-text-editor': [
+    {
+      'label': 'Toggle rebar-plus'
+      'command': 'rebar-plus:toggle'
+    }
+  ]
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'rebar-plus'
+      'submenu': [
+        {
+          'label': 'Toggle'
+          'command': 'rebar-plus:toggle'
+        }
+      ]
+    ]
+  }
+]
